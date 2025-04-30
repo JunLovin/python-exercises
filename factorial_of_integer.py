@@ -11,7 +11,6 @@ def factorial(numero):
     resultado = 1
     # Recorro desde 1 hasta el número ingresado y multiplico el resultado por el número actual
     for i in range(1, numero + 1):
-        print(resultado)
         resultado *= i
     return resultado
 
